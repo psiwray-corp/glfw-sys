@@ -1,0 +1,7 @@
+[registries.forgejo]
+index = "sparse+https://forgejo.psiwray.com/api/packages/psiwray-corp/cargo/"
+
+# Authenticated alternative registries require an explicit credential provider.
+# `cargo:token` reads ~/.cargo/credentials.toml and CARGO_REGISTRIES_FORGEJO_TOKEN.
+[registry]
+global-credential-providers = ["cargo:token"]
