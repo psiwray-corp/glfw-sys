@@ -1,6 +1,6 @@
 [package]
 name = "glfw-sys"
-version = "1.0.0"
+version = "1.0.1-dev"
 edition = "2024"
 rust-version = "1.85"
 description = "Raw FFI bindings for the system GLFW shared library."
